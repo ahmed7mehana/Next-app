@@ -13,7 +13,7 @@ const Navba = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if (window.scrollY >= 90) {
+      if (window.scrollY >= 60) {
         setColor("#205295");
         setTextColor("#2C74B3");
       } else {
@@ -42,6 +42,15 @@ const Navba = () => {
           <li className="p-2">
             <Link  className=" hover:text-[white]"  href="/About">About</Link>
           </li>
+          <li className="p-2">
+          <Link  className=" hover:text-[white]"  href="/SC">SC</Link>
+        </li>
+        <li className="p-2">
+        <Link  className=" hover:text-[white]"  href="/Bexcerpts">BQ</Link>
+      </li>
+      <li className="p-2">
+      <Link  className=" hover:text-[white]"  href="/Advices">AD</Link>
+    </li>
         </ul>
 
         {/* Mobile Button */}
@@ -73,7 +82,26 @@ const Navba = () => {
             >
             <Link href="/About">About</Link>
             </li>
-            
+            <li
+            onClick={handleNav}
+            className="p-4 text-4xl hover:text-gray-500"
+          >
+          <Link href="/SC">SC</Link>
+          </li>
+
+          <li
+          onClick={handleNav}
+          className="p-4 text-4xl hover:text-gray-500"
+        >
+        <Link href="/Bexcerpts">BQ</Link>
+        </li>
+        <li
+        onClick={handleNav}
+        className="p-4 text-4xl hover:text-gray-500"
+      >
+      <Link href="/Advices">AD</Link>
+      </li>
+
           </ul>
         </div>
       </div>

@@ -16,7 +16,8 @@ console.log(Data.length)
       <div className=' relative  left-[50%] top-[50%] translate-y-[-50%] translate-x-[-50%]'>
       <Card.Img  style={{ width: '100%' ,height:"200px" }}src={item.img} />
       <Card.Body className='flex flex-col items-center'>
-        <Card.Title className='text-white'>{item.title}</Card.Title>
+        <Card.Title className='text-white text-center'>{item.title}</Card.Title>
+        <Card.Title className=' text-amber-600 italic text-center'>{item.dec}</Card.Title>
         <Link href={item.url}  className=' hover:bg-[#2C74B3] text-[#0A2647]  !p-2 hover:font-bold   rounded bg-[#205295]   focus:bg-teal-400 w-[100px] text-center' >Start  </Link>
       </Card.Body>
       </div>

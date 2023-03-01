@@ -1,0 +1,28 @@
+[
+{
+    "title":"Haccp",
+    "description":"Hazard Analysis and Critical Control Points (HACCP) is a systematic preventive approach to food safety and pharmaceutical safety that addresses physical, chemical and biological hazards as a means of prevention rather than finished product inspection.    ",
+ "available":"Not available"
+},
+{
+    "title":"Gmp",
+    "description":"Good Manufacturing Practice (GMP) is a system for ensuring that products are consistently produced and controlled according to quality standards. It is designed to minimize the risks involved in any pharmaceutical production that cannot be eliminated through testing the final product. ",
+ "available":"Not available"
+    },{
+    "title":"food Safety",
+    "description":"Access to sufficient amounts of safe and nutritious food is key to sustaining life and promoting good health. Unsafe food containing harmful bacteria, viruses, parasites or chemical substances causes more than 200 diseases, ranging from diarrhoea to cancers    ",
+ "available":"Not available"
+    },{
+    "title":"Qc",
+    "description":"Quality control (QC) is a procedure or set of procedures intended to ensure that a manufactured product or performed service adheres to a defined set of quality criteria or meets the requirements of the client or customer. QC is similar to, but not identical with, quality assurance (QA).    ",
+ "available":"Not available"
+    },{
+    "title":"ISO 9001",
+    "description":"ISO 9001 is defined as the international standard that specifies requirements for a quality management system (QMS). Organizations use the standard to demonstrate the ability to consistently provide products and services that meet customer and regulatory requirements.",
+ "available":"Not available"
+    },{
+    "title":"Supply chain",
+    "description":"A supply chain is the network of all the individuals, organizations, resources, activities and technology involved in the creation and sale of a product. A supply chain encompasses everything from the delivery of source materials from the supplier to the manufacturer through to its eventual delivery to the end user.    ",
+ "available":"Not available"
+}
+]

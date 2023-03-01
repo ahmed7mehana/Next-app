@@ -30,3 +30,17 @@ body{
   background: #0A2647;
   border-radius: 5px;
 }
+.SC{
+  position: absolute;
+  top: 16%;
+  background-color: #0A2647;
+}
+.summ{
+  width: 80%;
+}
+.available{
+background-color: #9acd32;
+}
+.notavailable{
+  background-color:red;
+}

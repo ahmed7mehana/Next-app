@@ -16,6 +16,7 @@ function About() {
   looking for here. I have collected many courses from the site Popular
   Facebook groups and even YouTube channels, contact me if you want to
   add any resources, so welcome to my website.
+  
 </p>
 
       </div>

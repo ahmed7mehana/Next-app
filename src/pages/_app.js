@@ -5,10 +5,10 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
-<Navba/>
-    <Component {...pageProps} />
-    </>
+    <div >
+<Navba />
+    <Component  {...pageProps} />
+    </div>
   );
 }
 
