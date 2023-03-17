@@ -1,8 +1,11 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { useTranslation } from "react-i18next";
 
 const Navba = () => {
+  const { t, i18n } = useTranslation();
+
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
@@ -32,15 +35,15 @@ const Navba = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-3 text-white">
         <Link href="/">
           <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
-          Baradise
+          {t('Baradise')}
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex font-bold">
           <li className="p-2  ">
-            <Link  className=" hover:text-[white]" href="/" >Home</Link>
+            <Link  className=" hover:text-[white]" href="/" >{t('Home')}</Link>
           </li>
           <li className="p-2">
-            <Link  className=" hover:text-[white]"  href="/About">About</Link>
+            <Link  className=" hover:text-[white]"  href="/About">{t('About')}</Link>
           </li>
           <li className="p-2">
           <Link  className=" hover:text-[white]"  href="/SC">SC</Link>
@@ -74,13 +77,13 @@ const Navba = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/">Home</Link>
+              <Link href="/">{t('Home')}</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-            <Link href="/About">About</Link>
+            <Link href="/About">{t('About')}</Link>
             </li>
             <li
             onClick={handleNav}
