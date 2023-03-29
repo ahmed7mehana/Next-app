@@ -21,6 +21,10 @@ function Courses() {
     <div className='flex flex-col justify-center items-center mb-7 mt-7 w-full'>
     <p className="uppercase font-bold  rounded bg-white p-1 px-2 mb-3 w-full text-center text-lg  ">{t('its time to be a superior version of yourself')}</p>
     <div className='flex flex-col md:flex-row justify-center items-center flex-wrap '>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9ac1ce19815f83bb36a3f202d3c35ca74b26f507
     </div>
     </div>
     {Data.map((item)=>(
