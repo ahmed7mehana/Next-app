@@ -4,11 +4,10 @@ import Main from 'components/Main'
 import Courses from 'components/Courses'
 import Lang from 'components/Lang'
 
-
-
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
 
   return (
     <div  >
