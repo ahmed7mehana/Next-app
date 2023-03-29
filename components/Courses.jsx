@@ -8,9 +8,7 @@ import { useTranslation } from "react-i18next";
 
 function Courses() {
   const { t, i18n } = useTranslation();
-  // <video controls className="w-fit h-[300px]  rounded ">
-  // <source className="w-full" src="/video/4_5919388820008076285.mp4" type="video/mp4" />
-  // </video>
+
   return (
     <div id='Courses'>
  <h2 className='text-center uppercase font-bold m-5 text-4xl text-white'>{t('Battlefield')}</h2>
