@@ -2,11 +2,14 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
+import AddCourse from "./AddCourse";
+import Admin from "./Admin";
 
 const Navba = () => {
   const { t, i18n } = useTranslation();
 
   const [nav, setNav] = useState(false);
+  const [show, setshow] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
 
@@ -54,6 +57,12 @@ const Navba = () => {
       <li className="p-2">
       <Link  className=" hover:text-[white]"  href="/Advices">AD</Link>
     </li>
+    <li className="p-2">
+<p onClick={()=>setshow(!show)}>Admin</p>
+{show?(
+  <Admin/>
+):""}
+  </li>
         </ul>
 
         {/* Mobile Button */}
@@ -104,7 +113,12 @@ const Navba = () => {
       >
       <Link href="/Advices">AD</Link>
       </li>
-
+      <li className="p-2">
+      <p onClick={()=>setshow(!show)}>Admin</p>
+      {show?(
+        <Admin/>
+      ):""}
+        </li>
           </ul>
         </div>
       </div>
