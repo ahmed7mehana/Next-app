@@ -413,8 +413,7 @@
 "url": "https://www.bing.com/?/ai",
 "dec": "موقع يعتمد علي الذكاء الاصطناعي بالبحث",
 "title": "Bing ai"
-}
-,
+},
 {
 "img":"https://static.poder360.com.br/2022/03/telegram-aplicativo-vpn-848x477.jpg",
 "url": "https://t.me/senior274",
@@ -426,8 +425,9 @@
 "url": "https://t.me/+FHa33QsD4QMwZmZk",
 "dec": "كورسات مهمه مجانيه ",
 "title": "Ahmed mohammed"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3fbdc26695c94d029e831c485116f81116713ae9
 }
-
-
 ]
