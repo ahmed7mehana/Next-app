@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 import Card from 'react-bootstrap/Card';
-import Data from '../Data'
+import Data from './Data.json'
 import { useTranslation } from "react-i18next";
 import {db}from '../firebaseConfig'
 import 'firebase/firestore';
